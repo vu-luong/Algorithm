@@ -1,0 +1,15 @@
+#!/bin/sh
+printf "Enter folder name: \n"
+read FOLDER_NAME
+echo "Folder $FOLDER_NAME was created!\n"
+mkdir $FOLDER_NAME
+printf "Enter c++ file name: (non include .cpp)\n"
+read FILE_NAME
+echo "File $FILE_NAME was created!\n"
+a="$FOLDER_NAME/Template.cpp"
+b="$FOLDER_NAME/$FILE_NAME.cpp"
+cp Template.cpp $b
+#touch "$FOLDER_NAME/$FILE_NAME"
+echo "rename: $a --> $b"
+touch "$FOLDER_NAME/$FILE_NAME.txt"
+sed -i -e "s/input/$FILE_NAME/g" "$FOLDER_NAME/$FILE_NAME.cpp"
