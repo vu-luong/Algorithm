@@ -21,7 +21,28 @@
 
 using namespace std;
 
+string s;
+int m, n;
+
 int main() {
-    freopen("input.txt", "r", stdin);
+    // freopen("D.txt", "r", stdin);
+
+    scanf("%d %d", &m, &n);
+
+    for (int i = 1; i <= m; i++) {
+        cin >> s;
+    }
+
+    s = '.' + s;
+
+    int res = 0;
+
+    for (int i = 1; i < s.length(); i++) {
+        if (s[i] == 'B' && s[i - 1] == '.') {
+            res ++;
+        }
+    }
+
+    cout << res;
 
 }
