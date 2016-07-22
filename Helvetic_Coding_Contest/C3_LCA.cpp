@@ -34,44 +34,28 @@ int getbit(int x, int k) {
 }
 
 int lca(int x, int y) {
-    int u, v;
-    int ans;
-    if (x == y) return x;
-    if (f[x] >= f[y]) {
-        u = x;
-        v = y;
-    } else {
-        u = y;
-        v = x;
+    for (int i = k; i >= 0; i--) {
+        if (f[p[x][i]] >= f[y])
+            x = p[x][i];
     }
-
-    int t = f[u] - f[v];
+    for (int i = k; i >= 0; i--) {
+        if (f[p[y][i]] >= f[x])
+            y = p[y][i];
+    }
 
     for (int i = k; i >= 0; i--) {
-        if (getbit(t, i) == 1) {
-            u = p[u][i];
+        if (p[x][i] != p[y][i]) {
+            x = p[x][i];
+            y = p[y][i];
         }
     }
 
-    if (u == v) return u;
-    ans = p[u][k];
-    int l = ans;
-    int r = l;
-    int nh = k;
-
-    while (true) {
-        while (l == r) {
-            if (l == p[u][0]) return l;
-            nh--;
-            l = p[u][nh];
-            r = p[v][nh];
-        }
-        u = l;
-        v = r;
-        l = p[u][k];
-        r = l;
-        nh = k;
+    while (x != y) {
+        x = p[x][0];
+        y = p[y][0];
     }
+
+    return x;
 }
 
 int kc(int u, int v) {
