@@ -1,4 +1,3 @@
-#include <map>
 #include <set>
 #include <cmath>
 #include <cstdio>
@@ -10,18 +9,12 @@
 #include <algorithm>
 
 using namespace std;
-
 int u;
 
 int main() {
 
-    u = 10;
-
-    int n;
-
-    n = 5;
-
-    n + 1;
-
+    cout << "Hello world" << end;
+    for (int i = 1; i <= n; i++) {
+    }
 
 }

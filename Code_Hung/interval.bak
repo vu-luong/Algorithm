@@ -1,0 +1,30 @@
+const
+    fi = 'interval.inp';
+    fo = 'interval.out';
+
+
+var
+    n: integer;
+    a: array[1..1000] of integer;
+
+procedure Read_input;
+var
+    i : integer;
+begin
+    readln(n);
+    for i := 1 to n do
+        read(a[i]);
+end;
+
+procedure Main;
+begin
+end;
+
+begin
+    assign(input, fi); reset(input);
+    assign(output, fo); rewrite(output);
+    Read_input;
+    Main;
+    close(input);
+    close(output);
+end.

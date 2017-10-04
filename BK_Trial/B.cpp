@@ -23,12 +23,8 @@ using namespace std;
 
 int n;
 int main() {
-    // freopen("B.txt", "r", stdin);
-    cin >> n;
 
-    int k = n / 3;
-    if (k % 2 == 1) k--;
+    cout << "Hello world!" << endl;
 
-    cout << k * 2;
 
 }

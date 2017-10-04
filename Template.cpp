@@ -1,13 +1,4 @@
-#include <map>
-#include <set>
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <string>
-#include <cstdlib>
-#include <cstring>
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 
 #define PB push_back
 #define MP make_pair
@@ -23,5 +14,6 @@ using namespace std;
 
 int main() {
     freopen("input.txt", "r", stdin);
+    
 
 }

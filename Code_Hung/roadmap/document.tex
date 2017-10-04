@@ -1,0 +1,137 @@
+\documentclass[oneside,12pt]{book}
+\usepackage[bottom=1.0in, top=1.0in, width=6.15in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tipa}
+%\usepackage{txfonts}
+\usepackage{textcomp}
+%\usepackage{amsthm}
+%\usepackage{array}
+%\usepackage{xy}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{lmodern}
+\usepackage{standalone}%
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{lipsum} 
+\usepackage{xcolor} 
+\usepackage[utf8]{vietnam}
+%\usepackage[utf8x]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{mathrsfs}
+\usepackage{setspace}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=black,      
+	urlcolor=black,
+}
+
+
+\pagestyle{fancy}
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[L]{\bfseries\thepage}
+\fancyhead[R]{%
+	% We want italics
+	\itshape
+	% The chapter number only if it's greater than 0
+	\ifnum\value{chapter}>3 \fi
+	% The chapter title
+	%\leftmark
+	}
+%\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+%\addtolength{\headheight}{0.5pt}
+\setlength{\footskip}{0in}
+\renewcommand{\footruleskip}{0pt}
+\fancypagestyle{plain}{%
+%\fancyhead{}
+%\renewcommand{\headrulewidth}{0pt}
+}
+
+\renewcommand\thechapter{\Roman{chapter}}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+%\titleformat{\chapter}{\LARGE\bfseries}{Chapter \thechapter \linebreak}{1em}{}
+
+\renewcommand{\theequation}{\arabic{equation}}
+\def\*#1{\mathbf{#1}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\setstretch{1.5}
+
+\titleformat{\chapter}[display]
+{\normalfont\bfseries\LARGE}
+{\chaptertitlename~\thechapter}{1pc}
+{{\color{brown}\titlerule[1.5pt]}\vspace{1pc}}
+\titleformat{name=\chapter,numberless}[display]
+{\normalfont\bfseries\LARGE}{}{1pc}
+{}
+
+%
+%\parindent 0in
+%\parskip 0.05in
+%
+\addtolength{\cftchapnumwidth}{20pt}
+
+%\setcounter{chapter}{1}
+
+\begin{document}
+\frontmatter
+
+
+
+\tableofcontents
+\clearpage
+\ifodd\value{page}\else
+\thispagestyle{empty}
+\fi
+%
+\mainmatter
+%
+
+%\chapter{Các thuật toán phân cụm theo thứ bậc}
+{\noindent\LARGE\normalfont\bfseries Lộ trình học trong hè\\ \\ }
+
+
+
+
+\section{Nhập - xuất}
+\textbf{Thời gian: }21 - 30/06/17\\
+\textbf{Bài tập: }Bí kíp luyện rồng từ 20 - 32
+
+\section{Câu lệnh rẽ nhánh - điều kiện}
+\textbf{Thời gian: } 01 - 07/07/17\\
+\textbf{Bài tập: } Bí kíp luyện rồng 101 - 125
+
+\section{Vòng lặp}
+\textbf{Thời gian: } 08 - 14/07/17\\
+\textbf{Bài tập: } Bí kíp luyện rồng 231 - 260
+
+\section{Xâu}
+\textbf{Thời gian: } 15 - 21/07/17\\
+\textbf{Bài tập: } Bí kíp luyện rồng 412, 413, 414, 420, 441, 442, 443, 447, 451, 452, 454, 456, 458, 459, 460.
+
+\section{Mảng}
+\textbf{Thời gian: } 22 - 28/07/17\\
+\textbf{Bài tập: } Bí kíp luyện rồng 601 - 625
+
+\section{Đệ quy}
+\textbf{Thời gian: } 29 - 15/08/17\\
+\textbf{Bài tập: } Bí kíp luyện rồng 801 - 839.
+
+\textbf{Chú ý: } Phần này nâng cao hơn các phần trước, nên đọc thêm sách \textit{Giải thuật và lập trình} kết hợp tìm kiếm trên mạng để hiểu sâu hơn.
+
+\section{Bài tập thêm}
+Codeforces Round 400 đến Round 419: Làm các bài A.
+Nếu làm xong các bài A thì làm tiếp các bài B.
+
+
+\end{document}

@@ -13,3 +13,4 @@ cp Template.cpp $b
 echo "rename: $a --> $b"
 touch "$FOLDER_NAME/$FILE_NAME.txt"
 sed -i -e "s/input/$FILE_NAME/g" "$FOLDER_NAME/$FILE_NAME.cpp"
+rm "$FOLDER_NAME/$FILE_NAME.cpp-e"

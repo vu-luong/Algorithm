@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "73C4A800DC976394C47EA89E9D99FFDBD25871E5" : 0,
+    "90F7693F905825E4B1D5C354DA9ADD44E40A8697" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B351222-5FEC-41CF-8D33-9952FDE2ABA4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "73C4A800DC976394C47EA89E9D99FFDBD25871E5" : "Sparse-Matrix\/",
+    "90F7693F905825E4B1D5C354DA9ADD44E40A8697" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PTHH",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PTHH.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uestla\/Sparse-Matrix",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73C4A800DC976394C47EA89E9D99FFDBD25871E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vubinhne\/Algorithm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90F7693F905825E4B1D5C354DA9ADD44E40A8697"
+    }
+  ]
+}
