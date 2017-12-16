@@ -1,0 +1,29 @@
+Hamming Loss: 0.6620±0.0053
+Subset Accuracy: 0.0000±0.0000
+Example-Based Precision: 0.2102±0.0034
+Example-Based Recall: 0.9794±0.0179
+Example-Based F Measure: 0.3435±0.0051
+Example-Based Accuracy: 0.2101±0.0034
+Example-Based Specificity: 0.1989±0.0037
+Micro-averaged Precision: 0.2102±0.0034
+Micro-averaged Recall: 0.9789±0.0178
+Micro-averaged F-Measure: 0.3461±0.0052
+Micro-averaged Specificity: 0.1984±0.0036
+Macro-averaged Precision: 0.2374±0.0106
+Macro-averaged Recall: 0.9790±0.0156
+Macro-averaged F-Measure: 0.3704±0.0087
+Macro-averaged Specificity: 0.1974±0.0054
+Average Precision: 0.8756±0.0174
+Coverage: 0.5002±0.0517
+OneError: 0.1940±0.0316
+IsError: 0.2364±0.0311
+ErrorSetSize: 0.4375±0.0542
+Ranking Loss: 0.0813±0.0103
+Mean Average Precision: 0.8576±0.0222
+Geometric Mean Average Precision: 0.8499±0.0244
+Mean Average Interpolated Precision: 0.8463±0.0224
+Geometric Mean Average Interpolated Precision: 0.8400±0.0241
+Micro-averaged AUC: 0.9568±0.0096
+Macro-averaged AUC: 0.9492±0.0108
+Logarithmic Loss: 4.7582±0.7372
+Average Time: 2.1865909

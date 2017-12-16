@@ -1,0 +1,39 @@
+Hamming Loss: 0.3398±0.0076
+Subset Accuracy: 0.0004±0.0012
+Example-Based Precision: 0.3392±0.0087
+Example-Based Recall: 0.9481±0.0212
+Example-Based F Measure: 0.4948±0.0114
+Example-Based Accuracy: 0.3385±0.0086
+Example-Based Specificity: 0.5994±0.0049
+Micro-averaged Precision: 0.3392±0.0087
+Micro-averaged Recall: 0.9475±0.0213
+Micro-averaged F-Measure: 0.4995±0.0118
+Micro-averaged Specificity: 0.5975±0.0047
+Macro-averaged Precision: 0.4361±0.0140
+Beach: 0.2506±0.0234 Sunset: 0.9551±0.1015 FallFoliage: 0.4135±0.0455 Field: 0.3854±0.0382 Mountain: 0.2596±0.0258 Urban: 0.3525±0.0476 
+Macro-averaged Recall: 0.9439±0.0209
+Beach: 0.9579±0.0986 Sunset: 0.8649±0.0953 FallFoliage: 0.9570±0.0968 Field: 0.9719±0.0975 Mountain: 0.9781±0.1028 Urban: 0.9334±0.1007 
+Macro-averaged F-Measure: 0.5564±0.0146
+Beach: 0.3955±0.0380 Sunset: 0.9071±0.0978 FallFoliage: 0.5747±0.0619 Field: 0.5482±0.0552 Mountain: 0.4084±0.0409 Urban: 0.5043±0.0629 
+Macro-averaged Specificity: 0.5914±0.0077
+Beach: 0.3820±0.0359 Sunset: 0.9932±0.1000 FallFoliage: 0.7297±0.0729 Field: 0.6392±0.0992 Mountain: 0.2024±0.0270 Urban: 0.6021±0.0702 
+Average Precision: 0.8756±0.0174
+Coverage: 0.5002±0.0517
+OneError: 0.1940±0.0316
+IsError: 0.2364±0.0311
+ErrorSetSize: 0.4375±0.0542
+Ranking Loss: 0.0813±0.0103
+Mean Average Precision: 0.8576±0.0222
+Beach: 0.8622±0.0816 Sunset: 0.9747±0.1001 FallFoliage: 0.9460±0.0972 Field: 0.9028±0.0826 Mountain: 0.6775±0.0654 Urban: 0.7824±0.0872 
+Geometric Mean Average Precision: 0.8499±0.0244
+Beach: 0.8622±0.0816 Sunset: 0.9747±0.1001 FallFoliage: 0.9460±0.0972 Field: 0.9028±0.0826 Mountain: 0.6775±0.0654 Urban: 0.7824±0.0872 
+Mean Average Interpolated Precision: 0.8463±0.0224
+Beach: 0.8458±0.0815 Sunset: 0.9593±0.1001 FallFoliage: 0.9274±0.0929 Field: 0.8818±0.0800 Mountain: 0.6864±0.0662 Urban: 0.7771±0.0849 
+Geometric Mean Average Interpolated Precision: 0.8400±0.0241
+Beach: 0.8458±0.0815 Sunset: 0.9593±0.1001 FallFoliage: 0.9274±0.0929 Field: 0.8818±0.0800 Mountain: 0.6864±0.0662 Urban: 0.7771±0.0849 
+Micro-averaged AUC: 0.9568±0.0096
+Macro-averaged AUC: 0.9492±0.0108
+Beach: 0.9590±0.0949 Sunset: 0.9946±0.1000 FallFoliage: 0.9855±0.0986 Field: 0.9657±0.0926 Mountain: 0.8588±0.0859 Urban: 0.9316±0.0947 
+Logarithmic Loss: 4.7582±0.7372
+Average Time: 2.2832611
+

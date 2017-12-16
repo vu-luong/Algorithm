@@ -19,7 +19,7 @@ int first[MAXN];
 int n, m;
 
 int main() {
-    freopen("279C.txt", "r", stdin);
+//    freopen("279C.txt", "r", stdin);
  
     scanf("%d %d", &n, &m);
 
